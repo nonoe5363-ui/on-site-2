@@ -1,325 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Lover</title>
-    
-    <link rel="stylesheet" href="steyel.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appexy</title>
+  <link rel="stylesheet" href="src/css/all.min.css">
+  <link rel="stylesheet" href="src/css/output.css">
 </head>
-<body>
 
-
-    <header class="navbar">
-        <img src="IMGES/2.jpeg" alt="Logo">
-        <nav role="navigation">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+<body class="font-serif bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+  <section
+    class="bg-[url('/src/images/hero-2-bg.4f136e2cb3334913d0ce.png')] bg-center bg-no-repeat bg-cover min-h-screen">
+    <div class="relative z-10">
+      <header class="flex justify-between items-center px-10 py-6">
+        <div class="font-bold text-2xl text-gray-800">
+          <h2><span class="text-blue-600">WE</span>Xy</h2>
+        </div>
+        <nav>
+          <a href="#"
+            class="border-b-2 border-solid border-blue-600 text-blue-600 pb-1 dark:text-blu3e-400 dark:border-blue-400">Home</a>
+          <a href="#">Testminol</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+          <a href="#">Contact</a>
         </nav>
-    </header>
-    <section class="hero">
-        <h1>Welcome To <span>Food Lover</span> Restaurant</h1>
-        <p>Here you can find the most delicious food in the world</p>
-        <div class="container">
-            <a href="#" class="book">Book a Table</a>
-        </div>
-    </section>
-    <main>
-        <section id="about">
-            <div class="container">
-                <div class="title">
-                    <h2>The Food Lover History</h2>
-                    <p>More than 25+ years of experience</p>
-                </div>
 
-                <div class="about-content">
-                    <div class="about-text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Consequuntur, quibusdam saepe natus numquam dolorum aliquam ducimus 
-                            molestias tenetur? Quaerat atque blanditiis debitis voluptatem 
-                            sequi quibusdam nihil eveniet obcaecati soluta rem.
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Quaerat nesciunt aspernatur earum sequi consequatur, quasi iste 
-                            quod nam esse adipisci neque commodi voluptate deserunt architecto 
-                            rerum. Blanditiis labore sed sapiente.
-                        </p>
-                        <a href="#" class="y">Learn More</a>
-                    </div>
-                    <img src="IMGES/3.jpeg" alt="#">
-                </div>
-            </div>
-        </section>
-    </main>
-   <main>
-    <section class="off">
-        <div class="contenar2">
-            <div class="titel2">
-                <h2 class="j">Our Special Offers</h2>
-                <p>More than 25+ years of experience</p>
-                <div class="free">
-                    <div class="free1">
-                        <img src="IMGES/4.jpeg" alt="">
-                        <h3>Quattro Pasta</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, inventore.
-                        </p>
-                        <p class="q">$18.00</p>
+        <label class="inline-flex items-center cursor-pointer">
+          <input type="checkbox" value="" id="darkToggle" class="sr-only peer">
+          <div
+            class="relative w-9 h-5 bg-neutral-quaternary peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-brand-soft dark:peer-focus:ring-brand-soft rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-buffer after:content-[''] after:absolute after-top-[2px] after-start-[2px] after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-brand">
+          </div>
+          <span class="select-none ms-3 text-sm font-medium text-heading">Toggle me</span>
+        </label>
+        <a href="#" class="text-gray-600 dark:text-gray-300">Login</a>
+        <a href="#" class="px-4 py-2 bg-blue-600 text-white rounded-md 
+hover:bg-blue-700">Sign Up</a>
 
-
-                    </div> 
-
-                    <div class="free1">
-                        <img src="IMGES/6.jpeg" alt="">
-                        <h3>vegrtarian pasta</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, inventore.
-                         </p>
-                        <p class="q">$18.00</p>
-                    </div>
-                    <div class="free1">
-                        <img src="IMGES/7.jpeg" alt="">
-                        <h3>gluten-free pasta</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, inventore.
-                        </p>
-                        <p class="q">$18.00</p>
-
-                    </div>
-
-                </div>
-            </div>
+      </header>
+      <!-- Hero Section -->
+      <div class="flex flex-col-reverse md:flex-row items-center justify-between px-10 md:px-20 py-16">
+        <!-- Left Content -->
+        <div class="max-w-xl space-y-6">
+          <h1 class="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white">
+            Manage Your Activity<br> With <span class="text-blue-600">Appexy</span>
+          </h1>
+          <p class="text-gray-600 dark:text-gray-300">
+            Maecenas tempus, tellus eget condimentum rhoncus quam semper libero
+            sit amet adipiscing sem neque sed ipsum nam quam nunc blandit vel luctus
+            pulvinar.
+          </p>
+          <div class="flex gap-4">
+            <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Get Started
+              Today</a>
+            <a href="#"
+              class="px-6 py-3 border border-gray-300 text-gray-700 rounded-md hover:bg-gray-100 dark:text-gray-200 dark:border-gray-500 dark:hover:bg-gray-800 transition">Download
+              App</a>
+          </div>
         </div>
 
-    </section>
-   </main>
-     <section class="menu">
-    <h2>Our Special Menu</h2>
-    <p class="sub">Order two and get third for free</p>
-
-    <div class="menu-list">
-
-      <div class="menu-item">
-        <img src="IMGES/9.jpeg" alt="Lasal Cheese">
-        <div class="info">
-          <h3>LASAL CHEESE</h3>
-         <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
+        <!-- Right Image -->
+        <div class="mt-10 md:mt-0 md:w-1/2">
+          <img src="./src/images/hero-2-img.e00536899165fc0261f3.png" alt="Mobile UI"
+            class="w-full max-w-sm mx-auto rounded-xl">
         </div>
-        <span class="price">$18.00</span>
       </div>
-
-      <div class="menu-item">
-        <img src="IMGES/10.jpeg" alt="Jumbo Crab Shrimp">
-        <div class="info">
-          <h3>JUMBO CRAB SHRIMP</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$24.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/11.jpeg" alt="Koktail Juice">
-        <div class="info">
-          <h3>KOKTAIL JUICE</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$12.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/12.jpeg" alt="Capo Steak">
-        <div class="info">
-          <h3>CAPO STEAK</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$60.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/13.jpeg" alt="Organic Fruit Salad">
-        <div class="info">
-          <h3>ORGANIC FRUIT SALAD</h3>
-         <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$8.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/14.jpeg" alt="Cheese Pizza">
-        <div class="info">
-          <h3>CHEESE PIZZA</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>       
-        <span class="price">$18.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/15.jpeg" alt="Kofta Meat">
-        <div class="info">
-          <h3>KOFTA MEAT</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$40.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/16.jpeg" alt="Spanish Pies">
-        <div class="info">
-          <h3>SPANISH PIES</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$14.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/16.jpeg" alt="Cheese Toast">
-        <div class="info">
-          <h3>CHEESE TOAST</h3>
-         <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$6.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/17.jpeg" alt="Fruit Salad">
-        <div class="info">
-          <h3>FRUIT SALAD</h3>         
-          <hr class="dash">
-
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$14.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/18.jpeg" alt="Chicken Shawarma">
-        <div class="info">
-          <h3>CHICKEN SHAWARMA</h3>
-         <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$20.00</span>
-      </div>
-
-      <div class="menu-item">
-        <img src="IMGES/20.jpeg" alt="Mega Cheese Pizza">
-        <div class="info">
-          <h3>MEGA CHEESE PIZZA</h3>
-          <hr class="dash">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo.</p>
-        </div>
-        <span class="price">$30.00</span>
-      </div>
-
     </div>
-
-    <button class="btn">EXPLORE FULL MENU</button>
   </section>
-  <section class="gallery">
-  <div class="gallery-item">
-    <img src="IMGES/21.jpeg" alt="Image 1">
-    <h2>Break fast</h2>
-    <p>Lorem, ipsum.</p>
-  </div>
 
-  <div class="gallery-item">
-    <img src="IMGES/22.jpeg" alt="Image 2">
-    <h2>Lunds</h2>
-    <p>Grilled to </p>
-  </div>
+  <section id="features">
 
-  <div class="gallery-item">
-    <img src="IMGES/21.jpeg" alt="Image 3">
-    <h2>Dinner</h2>
-    <p>Soft it is</p>
-  </div>
-
-  <div class="gallery-item">
-    <img src="IMGES/24.jpeg" alt="Image 4">
-    <h2>Desarit</h2>
-    <p>desrit up</p>
-  </div>
-</section>
-
-
-<section class="food-gallery">
-  <h1>Our Food Gallery</h1>
-
-  <div class="gallery-container">
-    <div class="gallery-item">
-      <img src="IMGES/26.jpeg" alt="Food 1">
-    </div>
-    <div class="gallery-item">
-      <img src="IMGES/27.jpeg" alt="Food 2">
-    </div>
-    <div class="gallery-item">
-      <img src="IMGES/28.jpeg" alt="Food 3">
-    </div>
-    <div class="gallery-item">
-      <img src="IMGES/29.jpeg" alt="Food 4">
-    </div>
-    <div class="gallery-item">
-      <img src="IMGES/30.jpeg" alt="Food 5">
-    </div>
-    <div class="gallery-item">
-      <img src="IMGES/31.jpeg" alt="Food 6">
-    </div>
-  </div>
-</section>
-
-<section class="contact-section">
-  <div class="contact-container">
-    <div class="contact-info">
-      <h2>ADDRESS</h2>
-      <p><i class="fas fa-map-marker-alt"></i> Mansoura, Beside studium , Egypt</p>
-      <p><i class="fas fa-phone"></i> Phone: 123456789</p>
-      <p><i class="fas fa-envelope"></i> support@foodlover.com</p>
-
-      <h2>WORKING HOURS</h2>
-      <p>8:00 am to 11:00 pm on Weekdays</p>
-      <p>11:00 am to 1:00 Am on Weekends</p>
-
-      <h2>FOLLOW US</h2>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-
-    <div class="contact-form">
-      <form>
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <input type="text" placeholder="Subject" required>
-        <textarea placeholder="Message" required></textarea>
-        <button type="submit">SEND MESSAGE</button>
-      </form>
-    </div>
-  </div>
-</section>
-
-<footer id="footer">
-<p>Copyright &copy; 2024 All rights reserved | designed by <b>
-<a href="https://github.com/" target="_blank"></a>
-Student Name </a> </b></p>
-</footer>
+    <!-- title -->
+    <!-- <div class="title">
+      <p>Our Features</p>
+      <h2>Smart Solutions For Busy People</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed assumenda commodi ullam eveniet repellendus nisi?</p>
+     </div> -->
+  </section>
 
 
 
-
+        <section class="max-w-7xl mx-auto py-10 px-6 ml-5">
+          <div class="text-center mb-10">
+            <h3 class="text-gray-500 text-center uppercase dark:text-gray-600 font-semibold">Our Contacts</h3>
+            <h2>Get in Touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sapiente debitis veniam voluptas ipsum qui.</p>
+          </div>
+          <div class="grid md:grid-cols-2 gap-10">
+            <!-- contact -->
+             <div>
+              <div class="flex items-center mb-5">
+                <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Bot Icon" class="w-10 h-10 mr-3">
+                <h2 class="text-3xl font-bold text-c">Say Hello!</h2>
+              </div>
+              <div class="flex items-center mb-15 text-blue-600 font-semibold">
+                  <i class="fa-solid fa-envelope mr-2"></i>
+                  <p>Email</p>
+              </div>
+              <p class="text-center">WEXY1@gmail.com</p>
+              <p class="text-center">WEXY2@gmail.com</p>
+             </div>
+             <!-- Form -->
+          </div>
+        </section>
+        <script src="./src/js/main.js"></script>
 </body>
+
 </html>
